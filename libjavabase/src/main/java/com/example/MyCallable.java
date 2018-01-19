@@ -1,13 +1,11 @@
-package com.example;/**
- * Created by raoj on 2018/1/17.
- */
+package com.example;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
- * @Method: Thread_1
+ * @Method: MyCallable
  * @Decription:
  * @Author: raoj
  * @Date 2018/1/17
