@@ -1,4 +1,4 @@
-package com.example.thread;
+package com.example.sync;
 
 /**
  * @Method: SynTest_1

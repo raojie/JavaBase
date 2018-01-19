@@ -1,4 +1,4 @@
-package com.example.thread;/**
+package com.example.sync;/**
  * Created by raoj on 2018/1/19.
  */
 
@@ -40,7 +40,7 @@ class Callme {
     }
 
     synchronized void synCall(String msg) {
-        System.out.println("synCall---->[" + msg + "]");
+        System.out.println("synCall---->[测试是否是：一旦一个线程进入一个实例的任何同步方法，别的线程将不能进入该同一实例的其它同步方法，但是该实例的非同步方法仍然能够被调用]");
     }
 }
 
